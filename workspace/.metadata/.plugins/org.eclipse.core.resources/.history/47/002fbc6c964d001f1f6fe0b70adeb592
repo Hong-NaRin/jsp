@@ -1,0 +1,29 @@
+package com.kkodamkkodam.board.model;
+
+import java.sql.Timestamp;
+
+public class MiniDTO {
+	
+	private Long postno;
+	private String boardType;
+	private String boardCategory;
+	private String content;
+	private Timestamp regdate;
+	private Long viewCount;
+
+	public MiniDTO() {
+	}
+
+	public MiniDTO(Long postno, String boardType, String boardCategory, String content, Timestamp regdate,
+			Long viewCount) {
+		super();
+		this.postno = postno;
+		this.boardType = boardType;
+		this.boardCategory = boardCategory;
+		this.content = content;
+		this.regdate = regdate;
+		this.viewCount = viewCount;
+	}
+
+	
+}

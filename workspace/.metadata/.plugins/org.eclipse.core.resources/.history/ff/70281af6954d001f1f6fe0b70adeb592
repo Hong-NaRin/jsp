@@ -1,0 +1,5 @@
+package com.kkodamkkodam.board.model;
+
+public class MiniDTO {
+
+}

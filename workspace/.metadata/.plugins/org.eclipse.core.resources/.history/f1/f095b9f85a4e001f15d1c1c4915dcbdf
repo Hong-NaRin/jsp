@@ -1,0 +1,21 @@
+package com.kkodamkkodam.board.model;
+
+import java.sql.Timestamp;
+
+public class VoteDTO {
+	
+	private Long voteId;
+	private Long postNo;
+	private Timestamp regdate;
+	private String voteOption;
+	private String boardCategory;
+	private String content;
+	private Long viewCount;
+	private Long userNo;
+	private Long likeCount;
+	
+	
+	public VoteDTO() {
+	}
+
+}
